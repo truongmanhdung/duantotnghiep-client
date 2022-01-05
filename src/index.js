@@ -8,6 +8,9 @@ import { PersistGate } from "redux-persist/integration/react";
 import { store } from "./app/store";
 import persistor from "./app/store";
 import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'antd/dist/antd.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
