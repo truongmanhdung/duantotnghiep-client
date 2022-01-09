@@ -1,5 +1,5 @@
 import { ImUser } from "react-icons/im";
-import "../../../styles/content.css";
+import "../../../common/styles/content.css";
 import Slider from "react-slick";
 import { Col } from "antd";
 

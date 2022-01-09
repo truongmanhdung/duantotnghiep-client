@@ -1,6 +1,6 @@
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import logo2 from "../../../public/logo2.png"
+import logo2 from "../../../common/logo2.png"
 import { Layout } from "antd";
 const { Header } = Layout;
 // const logo = "https://png2png.com/wp-content/uploads/2021/06/moon-png1-1024x1024.png";

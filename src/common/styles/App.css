@@ -1,6 +1,6 @@
 @font-face {
     font-family: titleFont;
-    src: url(../public/fonts/BebasNeue-Regular.ttf);
+    src: url(../fonts/BebasNeue-Regular.ttf);
 }
 
 .App {
@@ -242,7 +242,7 @@
 .ant-layout-content {
     overflow: hidden;
     position: relative;
-    background-image: url(../public/background.png);
+    background-image: url(../background.png);
     background-repeat: no-repeat;
     background-position: 100%;
     background-attachment: fixed;
@@ -251,7 +251,7 @@
 .App {
     overflow: hidden;
     position: relative;
-    background-image: url(../public/background.png);
+    background-image: url(../background.png);
     background-repeat: no-repeat;
     background-position: 100%;
     background-attachment: fixed;

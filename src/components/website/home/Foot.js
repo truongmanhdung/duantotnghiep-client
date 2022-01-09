@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo2 from "../../../public/logo2.png";
+import logo2 from "../../../common/logo2.png";
 
 const Foot = () => {
     return (

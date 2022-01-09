@@ -2,7 +2,7 @@ import { Col } from "antd";
 import { ImUser } from "react-icons/im";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import "../../../styles/ForumHome.css";
+import "../../../common/styles/ForumHome.css";
 
 const ForumHome = () => {
     const settings = {

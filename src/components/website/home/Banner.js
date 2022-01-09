@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 // const Fantasy= "https://vod-progressive.akamaized.net/exp=1640367712~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2804%2F24%2F614024257%2F2858521832.mp4~hmac=1a9994ef1d37f591e9d1c1e63826006fbe53540b42df4bff8e0ca46360bc048c/vimeo-prod-skyfire-std-us/01/2804/24/614024257/2858521832.mp4?filename=Lake+-+89312.mp4";
 // import Fantasy from '../../Fantasy.mp4';
-import People from '../../../public/People.mp4';
+import People from '../../../common/People.mp4';
 const Banner = () => {
     return (
         <div className="banner row">
