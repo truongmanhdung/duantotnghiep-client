@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Button } from 'antd'
 import { memo } from 'react'
 
-function Blog(props) {
+function BlogContainer(props) {
     const {handleClickBlog, count} = props
     const handleClick = (number) => {
         const numberNew = number + 1
@@ -16,10 +16,10 @@ function Blog(props) {
     )
 }
 
-Blog.propTypes = {
+BlogContainer.propTypes = {
     handleClickBlog: PropTypes.func,
     count: PropTypes.number,
 }
 
-export default memo(Blog)
+export default memo(BlogContainer)
 

@@ -1,4 +1,5 @@
-import logo2 from "../../logo2.png";
+import { Link } from "react-router-dom";
+import logo2 from "../../../public/logo2.png";
 
 const Foot = () => {
     return (
@@ -15,10 +16,10 @@ const Foot = () => {
                         <div className="col-md-4 social-all">
                             <h5 style={{color: "white"}}>Connecting to the MoonFi Protocol</h5>
                             <p className="social">
-                                <a href="/"><i className="ti-facebook"></i></a>
-                                <a href="/"><i className="ti-twitter"></i></a>
-                                <a href="/"><i className="ti-linkedin"></i></a>
-                                <a href="/"><i className="ti-youtube"></i></a>
+                                <Link to="/"><i className="ti-facebook"></i></Link>
+                                <Link to="/"><i className="ti-twitter"></i></Link>
+                                <Link to="/"><i className="ti-linkedin"></i></Link>
+                                <Link to="/"><i className="ti-youtube"></i></Link>
                             </p>
                             <span><img width={120} src="https://images.dmca.com/Badges/DMCA_logo-grn-btn120w.png?ID=7a90b714-7124-4fd6-935a-0f697cef6594" alt="" /></span>
                         </div>

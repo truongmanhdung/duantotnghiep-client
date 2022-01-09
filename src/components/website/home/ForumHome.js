@@ -1,7 +1,8 @@
 import { Col } from "antd";
 import { ImUser } from "react-icons/im";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import "../css/ForumHome.css";
+import "../../../styles/ForumHome.css";
 
 const ForumHome = () => {
     const settings = {
@@ -46,11 +47,11 @@ const ForumHome = () => {
                         <div className="tag-topic">Study Topic</div>
                     </div>
                     <ul className="item-content-forum-home">
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
                     </ul>
-                    <a className="btn btn-light tag-all">see all...</a>
+                    <Link to="/"className="btn btn-light tag-all">see all...</Link>
                 </Col>
                 <Col span={24} className="item-forum-home">
                     <div className="img-forum-home">
@@ -58,11 +59,11 @@ const ForumHome = () => {
                         <div className="tag-topic">English Topic</div>
                     </div>
                     <ul className="item-content-forum-home">
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
                     </ul>
-                    <a className="btn btn-light tag-all">see all...</a>
+                    <Link to="/" className="btn btn-light tag-all">see all...</Link>
                 </Col>
                 <Col span={24} className="item-forum-home">
                     <div className="img-forum-home">
@@ -70,11 +71,11 @@ const ForumHome = () => {
                         <div className="tag-topic">VietNam Topic</div>
                     </div>
                     <ul className="item-content-forum-home">
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
-                        <li><a href="#"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</a></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
+                        <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
                     </ul>
-                    <a className="btn btn-light tag-all">see all...</a>
+                    <Link className="btn btn-light tag-all">see all...</Link>
                 </Col>
             </Slider>
         </div>
