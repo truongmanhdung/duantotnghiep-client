@@ -1,5 +1,4 @@
 import { Col } from "antd";
-import { ImUser } from "react-icons/im";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "../../../common/styles/ForumHome.css";
@@ -75,7 +74,7 @@ const ForumHome = () => {
                         <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
                         <li><Link to="/"> They always get me good support all the way until my graduation and I am so happy I trusted them. I feel comfortable and relaxed from the time I work with them</Link></li>
                     </ul>
-                    <Link className="btn btn-light tag-all">see all...</Link>
+                    <Link to="/" className="btn btn-light tag-all">see all...</Link>
                 </Col>
             </Slider>
         </div>

@@ -13,7 +13,6 @@ const InfoTokenContainer = () => {
 
   return (
     <>
-      <Head />
       <div className="loading-nn active">
         <div class="square-loading"></div>
       </div>
@@ -27,7 +26,6 @@ const InfoTokenContainer = () => {
           frameBorder="0"
         ></iframe> */}
       </div>
-      <Foot />
     </>
   );
 };

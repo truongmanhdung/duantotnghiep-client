@@ -1,6 +1,6 @@
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import logo2 from "../../../common/logo2.png"
+import logo2 from "../../../common/image/logo2.png";
 import { Layout } from "antd";
 const { Header } = Layout;
 // const logo = "https://png2png.com/wp-content/uploads/2021/06/moon-png1-1024x1024.png";
@@ -23,13 +23,13 @@ const Head = () => {
                                     <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/#information">Information</Link>
+                                    <a className="nav-link" href="/#information">Information</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/#courses">Courses</Link>
+                                    <a className="nav-link" href="/#courses">Courses</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/#partnership">Partnership</Link>
+                                    <a className="nav-link" href="/#partnership">Partnership</a>
                                 </li>
                                 <li className="nav-item">
                                     <Link to="/chart" className="nav-link">Chart</Link>

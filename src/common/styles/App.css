@@ -242,7 +242,7 @@
 .ant-layout-content {
     overflow: hidden;
     position: relative;
-    background-image: url(../background.png);
+    background-image: url(../image/background.png);
     background-repeat: no-repeat;
     background-position: 100%;
     background-attachment: fixed;
@@ -251,7 +251,7 @@
 .App {
     overflow: hidden;
     position: relative;
-    background-image: url(../background.png);
+    background-image: url(../image/background.png);
     background-repeat: no-repeat;
     background-position: 100%;
     background-attachment: fixed;

@@ -1,4 +1,3 @@
-import { BsFillAwardFill } from 'react-icons/bs';
 const Partnership = () => {
     return (
         <div className="partnership" id="partnership">

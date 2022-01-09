@@ -1,6 +1,4 @@
 import { useEffect } from "react";
-import Foot from "../../components/website/home/Foot";
-import Head from "../../components/website/home/Head";
 
 const ChartContainer = () => {
   useEffect(() => {
@@ -12,7 +10,6 @@ const ChartContainer = () => {
   }, 2500);
   return (
     <>
-      <Head />
       <div className="loading-nn active">
         <div class="fade-loading"></div>
       </div>
@@ -26,7 +23,6 @@ const ChartContainer = () => {
           frameBorder="0"
         ></iframe> */}
       </div>
-      <Foot />
     </>
   );
 };
